@@ -1,0 +1,13 @@
+p{color: blue;}
+
+#parafo{background-color: crimson;}
+
+.clase{background-color: darkgreen;}
+
+input:focus{ background-color: red;}
+
+button:hover{background-color:blue;}
+
+p::first-letter{font-size: 40px;}
+
+p::selection{background-color: black;color: white;}
