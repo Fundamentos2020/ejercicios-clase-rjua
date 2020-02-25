@@ -1,0 +1,71 @@
+/*@keyframes ejemplo1{
+    from{background-color: red;}
+    to{background-color: blue;}
+}*/
+
+@keyframes ejempl1{
+    0%{left: 200px; top: 0px;}
+    25%{left: 200px; top: 0px;}
+    50%{left: 200px; top: 0px;}
+    100%{left: 200px; top: 0px;}
+
+
+}
+
+#ej_trans{
+    background-color: red;
+    width: 200px;
+    height:100px;
+    transition: height 2s ;
+}
+
+#ej_trans :hover{
+    height: 500px;
+}
+
+#ej_animacion{
+    background-color: red;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation-name: ejemplo1;
+    animation-duration: 2s;
+    animation-delay:  2s; ;
+
+}
+
+#div_menun{
+    background-color: black;
+}
+
+#menu{
+    padding:0px;  
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    width: 50%;
+
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+}
+menu li  :hover{
+color: black;
+background-color: white;
+}
+
+#search{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+#search input{
+    width: 50px;
+    transition: width 2s;
+
+}
+#search input :focus{
+    width: 150px;
+}
