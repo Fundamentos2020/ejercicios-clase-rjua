@@ -1,0 +1,9 @@
+.border-size{
+    box-sizing: border-box;
+}
+div{
+    padding: 5px 20px;
+    border: 10px solid black;
+    width: 100%;
+    margin: 5px 0px;
+}
