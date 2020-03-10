@@ -8,15 +8,16 @@
     height: auto;
 }*/
 
-.flex-container
-{
+.flex-container{
     background-color: brown;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     justify-content: center;
     height: 200px;
     align-items: flex-end;
+    align-content: stretch;
+
 }
 
 .flex-container div{
